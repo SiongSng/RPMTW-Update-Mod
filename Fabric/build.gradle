@@ -52,7 +52,7 @@ dependencies {
     include('org.json:json:20090211')
     include('com.squareup.okhttp3:okhttp:3.12.12')
     include('com.squareup.okio:okio:1.15.0')
-    modImplementation include("me.shedaniel.cloth:cloth-config-fabric:5.0.34") {
+    modImplementation include("me.shedaniel.cloth:cloth-config-fabric:5.0.38") {
         exclude(group: "net.fabricmc.fabric-api")
     }
     modImplementation include("io.github.cottonmc:LibGui:4.1.0+1.17")
